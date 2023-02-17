@@ -1,0 +1,107 @@
+/* styling of tablet version 1st breakpoint */
+
+@media screen and (max-width:991px) {
+    
+    .nav-login{
+        /* display: none; */
+        position: absolute;
+    
+    }
+    .nav-bar2{
+        /* display: none; */
+        position: absolute;
+
+    }
+
+    /* styling for humbiurger */
+    .nav-bar2{
+        position: absolute;
+        
+
+        
+    }
+
+    .nav-toggle{
+        margin-top: 30px;
+        margin-right: 50px;
+        display: block;
+    }
+    .credentials-items h1{
+        text-align: center  ;
+    }
+    .achiever-items{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .achiever-contant img{
+        width: 100px;
+    }
+    .fame-item p{
+        /* border: 2px olid yellow; */
+        width: 100%;
+        margin-left: 8px;
+    }
+    #fame-item3 img{
+        margin-top: -5px;
+    }
+    .fame-item2 img{
+        margin-top: -30px;
+    }
+    .products-items p{
+        width: 100%;
+        margin-left: -8px;
+    }
+    #products-items3{
+        margin-top: 25px;
+    }
+    #products-items5 h3{
+        margin-top: 50px;
+    }
+
+    
+}
+
+
+/* styling fot large mobile version - 2nd breakpoint  */
+@media screen  and (max-width:767px){
+    #fame-itembest{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .fame-item{
+        width: 100%;
+    }
+    .fame-item2 img{
+        margin-top: 20px;
+    }
+    .community-one{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .product-box{
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .products-items{
+        width: 100%;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-box3-inner{
+        align-items: stretch;
+    }
+    .footer-box2{
+        text-align: center;
+    }
+    .credentials-one{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .credentials-items{
+        width: 100%;
+    }
+}
